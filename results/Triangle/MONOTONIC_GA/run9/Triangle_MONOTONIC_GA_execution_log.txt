@@ -1,0 +1,64 @@
+Compiling Triangle.java...
+Running EvoSuite for Triangle with MONOTONIC_GA...
+* EvoSuite 1.0.6
+* Going to generate test cases for class: Triangle
+* Starting client
+* Connecting to master process on port 12142
+* Analyzing classpath: 
+  - .
+* Finished analyzing classpath
+* Generating tests for class Triangle
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+[Progress:>                             0%] [Cov:>                                  0%]* Total number of test goals: 18
+* Using seed 1700847673827
+* Starting evolution
+[Progress:>                             0%] [Cov:=================>                 50%][Progress:>                             1%] [Cov:=======================>           66%][Progress:=>                            5%] [Cov:==========================>        77%][Progress:=>                            6%] [Cov:=======================>           66%][Progress:===>                          11%] [Cov:=============================>     83%][Progress:===>                          13%] [Cov:=========================>         72%][Progress:====>                         15%] [Cov:=================>                 50%][Progress:=====>                        18%] [Cov:=======================>           66%][Progress:======>                       23%] [Cov:=======================>           66%][Progress:=========>                    30%] [Cov:=======================>           66%][Progress:=========>                    33%] [Cov:=========================>         72%][Progress:============>                 41%] [Cov:==============================>    88%][Progress:============>                 43%] [Cov:=================>                 50%][Progress:=============>                46%] [Cov:=======================>           66%][Progress:===============>              50%] [Cov:=======================>           66%][Progress:===============>              53%] [Cov:=================>                 50%][Progress:================>             56%] [Cov:=============================>     83%][Progress:=================>            58%] [Cov:=================>                 50%][Progress:==================>           63%] [Cov:=============================>     83%][Progress:=====================>        70%] [Cov:=============================>     83%][Progress:=====================>        71%] [Cov:=======================>           66%][Progress:=====================>        73%] [Cov:=======================>           66%][Progress:=======================>      78%] [Cov:=================>                 50%][Progress:=========================>    85%] [Cov:=============================>     83%][Progress:==========================>   88%] [Cov:=================>                 50%][Progress:===========================>  91%] [Cov:=======================>           66%][Progress:=============================>98%] [Cov:=======================>           66%][Progress:==============================100%] [Cov:=======================>           66%][Progress:==============================100%] [Cov:==============================>    88%][Progress:==============================100%] [Cov:===================================100%]
+* Search finished after 65s and 0 generations, 3124 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 18
+* Number of covered goals: 18
+* Generated 7 tests with total length 7
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 75%
+* Compiling and checking tests
+* Writing JUnit test case 'Triangle_ESTest' to evosuite-tests
+* Done!
+
+* Computation finished
+Compiling generated test class...
+Running JUnit tests...
+JUnit version 4.12
+17:43:34.364 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: Triangle_ESTest
+17:43:34.365 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'Triangle_ESTest'.
+17:43:34.411 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: Triangle_ESTest_scaffolding
+17:43:34.411 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'Triangle_ESTest_scaffolding'.
+17:43:34.413 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: Triangle_ESTest_scaffolding
+17:43:34.413 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: Triangle_ESTest
+17:43:34.775 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+17:43:34.775 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+17:43:34.775 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+17:43:34.775 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AppKit Thread"
+17:43:34.775 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+17:43:34.775 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Queue Flusher"
+17:43:34.775 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+17:43:34.775 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+17:43:34.787 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: Triangle
+17:43:34.787 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'Triangle'.
+17:43:34.792 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class Triangle
+17:43:34.854 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class Triangle
+17:43:34.854 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field INVALID
+17:43:34.854 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field SCALENE
+17:43:34.854 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field EQUILATERAL
+17:43:34.854 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field ISOSCELES
+17:43:34.855 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: Triangle
+.......
+Time: 0.81
+
+OK (7 tests)
+

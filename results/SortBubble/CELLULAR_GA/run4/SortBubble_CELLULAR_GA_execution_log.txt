@@ -1,0 +1,61 @@
+Compiling SortBubble.java...
+Running EvoSuite for SortBubble with CELLULAR_GA...
+* EvoSuite 1.0.6
+* Going to generate test cases for class: SortBubble
+* Starting client
+* Connecting to master process on port 18499
+* Analyzing classpath: 
+  - .
+* Finished analyzing classpath
+* Generating tests for class SortBubble
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Running the Cellular GA with the 'LINEAR_FIVE' neighbourhoods model 
+[Progress:>                             0%] [Cov:>                                  0%]* Total number of test goals: 7
+* Using seed 1700849640725
+* Starting evolution
+[Progress:>                             0%] [Cov:==============>                    42%][Progress:>                             0%] [Cov:=============================>     85%][Progress:>                             0%] [Cov:===================================100%][Progress:>                             0%] [Cov:===================================100%]
+* Search finished after 1s and 0 generations, 3724 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 7
+* Number of covered goals: 7
+* Generated 3 tests with total length 17
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Compiling and checking tests
+* Writing JUnit test case 'SortBubble_ESTest' to evosuite-tests
+* Done!
+
+* Computation finished
+Compiling generated test class...
+Running JUnit tests...
+JUnit version 4.12
+18:14:04.386 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: SortBubble_ESTest
+18:14:04.387 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'SortBubble_ESTest'.
+18:14:04.434 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: SortBubble_ESTest_scaffolding
+18:14:04.435 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'SortBubble_ESTest_scaffolding'.
+18:14:04.437 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: SortBubble_ESTest_scaffolding
+18:14:04.437 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: SortBubble_ESTest
+18:14:04.817 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+18:14:04.817 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+18:14:04.817 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+18:14:04.817 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AppKit Thread"
+18:14:04.817 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+18:14:04.817 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Queue Flusher"
+18:14:04.817 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+18:14:04.817 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+18:14:04.830 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: SortBubble
+18:14:04.831 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'SortBubble'.
+18:14:04.835 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class SortBubble
+18:14:04.901 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class SortBubble
+18:14:04.901 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: SortBubble
+...
+Time: 0.459
+
+OK (3 tests)
+
