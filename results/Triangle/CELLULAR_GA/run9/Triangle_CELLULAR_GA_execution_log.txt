@@ -1,0 +1,65 @@
+Compiling Triangle.java...
+Running EvoSuite for Triangle with CELLULAR_GA...
+* EvoSuite 1.0.6
+* Going to generate test cases for class: Triangle
+* Starting client
+* Connecting to master process on port 6247
+* Analyzing classpath: 
+  - .
+* Finished analyzing classpath
+* Generating tests for class Triangle
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Running the Cellular GA with the 'LINEAR_FIVE' neighbourhoods model 
+[Progress:>                             0%] [Cov:>                                  0%]* Total number of test goals: 18
+* Using seed 1700850646479
+* Starting evolution
+[Progress:>                             1%] [Cov:=============================>     83%][Progress:=>                            5%] [Cov:=============================>     83%][Progress:===>                          11%] [Cov:=======================>           66%][Progress:====>                         15%] [Cov:=======================>           66%][Progress:=====>                        18%] [Cov:=========================>         72%][Progress:======>                       21%] [Cov:=============================>     83%][Progress:=========>                    30%] [Cov:=============================>     83%][Progress:==========>                   36%] [Cov:=============================>     83%][Progress:============>                 40%] [Cov:=======================>           66%][Progress:============>                 43%] [Cov:=======================>           66%][Progress:===============>              51%] [Cov:=============================>     83%][Progress:================>             55%] [Cov:=======================>           66%][Progress:================>             56%] [Cov:=========================>         72%][Progress:=================>            58%] [Cov:=============>                     38%][Progress:==================>           61%] [Cov:=========================>         72%][Progress:====================>         68%] [Cov:=======================>           66%][Progress:=====================>        73%] [Cov:=========================>         72%][Progress:========================>     80%] [Cov:==============================>    88%][Progress:========================>     81%] [Cov:=============================>     83%][Progress:==========================>   88%] [Cov:=============================>     83%][Progress:===========================>  93%] [Cov:=================>                 50%][Progress:=============================>98%] [Cov:=======================>           66%][Progress:==============================100%] [Cov:=================>                 50%][Progress:==============================100%] [Cov:=============================>     83%][Progress:==============================100%] [Cov:===================================100%]
+* Search finished after 61s and 0 generations, 3168 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 18
+* Number of covered goals: 18
+* Generated 7 tests with total length 7
+* Resulting test suite's coverage: 100%
+* Generating assertions
+* Resulting test suite's mutation score: 74%
+* Compiling and checking tests
+* Writing JUnit test case 'Triangle_ESTest' to evosuite-tests
+* Done!
+
+* Computation finished
+Compiling generated test class...
+Running JUnit tests...
+JUnit version 4.12
+18:33:01.683 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: Triangle_ESTest
+18:33:01.684 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'Triangle_ESTest'.
+18:33:01.733 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: Triangle_ESTest_scaffolding
+18:33:01.733 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'Triangle_ESTest_scaffolding'.
+18:33:01.735 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: Triangle_ESTest_scaffolding
+18:33:01.735 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: Triangle_ESTest
+18:33:02.164 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Reference Handler"
+18:33:02.164 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Finalizer"
+18:33:02.164 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Signal Dispatcher"
+18:33:02.164 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AppKit Thread"
+18:33:02.164 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "AWT-Shutdown"
+18:33:02.164 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Queue Flusher"
+18:33:02.164 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "Java2D Disposer"
+18:33:02.164 [main] DEBUG o.e.runtime.sandbox.MSecurityManager - Adding privileged thread: "main"
+18:33:02.179 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Seeing class for first time: Triangle
+18:33:02.179 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Instrumenting class 'Triangle'.
+18:33:02.184 [main] INFO  o.e.r.i.MethodCallReplacementClassAdapter - Adding mock interface to class Triangle
+18:33:02.251 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Creating brand-new static initializer in class Triangle
+18:33:02.251 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field INVALID
+18:33:02.251 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field SCALENE
+18:33:02.251 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field EQUILATERAL
+18:33:02.251 [main] INFO  o.e.r.i.CreateClassResetClassAdapter - Adding bytecode for initializing field ISOSCELES
+18:33:02.252 [main] INFO  o.e.r.instrumentation.EvoClassLoader - Keeping class: Triangle
+.......
+Time: 0.862
+
+OK (7 tests)
+

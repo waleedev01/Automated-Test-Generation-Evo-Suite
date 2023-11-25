@@ -12,7 +12,7 @@ CLASS_NAME=$1
 NUM_REPETITIONS=10
 
 # Define the strategies to use based on the available algorithms in EvoSuite
-STRATEGIES=("CELLULAR_GA")
+STRATEGIES=("MOSA")
 
 # Create a main results directory if it doesn't exist
 mkdir -p results
